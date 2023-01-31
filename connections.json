@@ -1,0 +1,32 @@
+{
+  "managedApiConnections": {
+    "azureeventgrid": {
+      "api": {
+        "id": "/subscriptions/52eb3891-6f09-4350-8707-4dc848cba302/providers/Microsoft.Web/locations/westeurope/managedApis/azureeventgrid"
+      },
+      "connection": {
+        "id": "/subscriptions/52eb3891-6f09-4350-8707-4dc848cba302/resourceGroups/rg-la-lifecycle/providers/Microsoft.Web/connections/azureeventgrid"
+      },
+      "connectionRuntimeUrl": "https://47e705ee2f46a8cd.12.common.logic-westeurope.azure-apihub.net/apim/azureeventgrid/3e0d4d081cf9497689fd83e8900b39c2/",
+      "authentication": {
+        "type": "Raw",
+        "scheme": "Key",
+        "parameter": "@appsetting('azureeventgrid-connectionKey')"
+      }
+    },
+    "azureblob_1": {
+      "api": {
+        "id": "/subscriptions/52eb3891-6f09-4350-8707-4dc848cba302/providers/Microsoft.Web/locations/westeurope/managedApis/azureblob"
+      },
+      "connection": {
+        "id": "/subscriptions/52eb3891-6f09-4350-8707-4dc848cba302/resourceGroups/rg-la-lifecycle/providers/Microsoft.Web/connections/azureblob-2"
+      },
+      "connectionRuntimeUrl": "https://47e705ee2f46a8cd.12.common.logic-westeurope.azure-apihub.net/apim/azureblob/bfc44406b33b4b63a906e93ff9e86d94/",
+      "authentication": {
+        "type": "Raw",
+        "scheme": "Key",
+        "parameter": "@appsetting('azureblob_1-connectionKey')"
+      }
+    }
+  }
+}
